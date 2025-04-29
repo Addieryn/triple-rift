@@ -37,17 +37,14 @@ Game_project
 ### setup
 - possible preset places terrain
 
-
 ## Dice 
 
 ### rules 
 - pyramid die 
-
-## design
-- 3 X d4 pyramid dice
 - dice as modifiers
 - 3 modifiers plus, minus, crit hit, crit miss
     - majority wins:
+```
     1. + + - = +
     2. + + + = +
     3. - - - = -
@@ -55,3 +52,7 @@ Game_project
     5. + - C = 0
     6. C C -/+ = C
     7. C C C = C+/-
+```
+## design
+- 3 X d4 pyramid dice
+- symbols on dice
