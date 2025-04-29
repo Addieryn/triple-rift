@@ -40,7 +40,18 @@ Game_project
 
 ## Dice 
 
+### rules 
+- pyramid die 
+
 ## design
-- 3 X d3 dice
+- 3 X d4 pyramid dice
 - dice as modifiers
-- 3 modifiers plus, minus, crit (sum of all except crit needs to be all 3)
+- 3 modifiers plus, minus, crit hit, crit miss
+    - majority wins:
+    1. + + - = +
+    2. + + + = +
+    3. - - - = -
+    4. + - - = -
+    5. + - C = 0
+    6. C C -/+ = C
+    7. C C C = C+/-
