@@ -4,55 +4,67 @@ Game_project
 # GAMEPLAY
 
 ## Rules
-- place card X1, move card X1, spells unlimited
+- place card x1, move card x1, spells unlimited
 - cards only effect lower levels
+- most "tamed" wins
+- (?)cards played in any direction
+
 
 ## Card mechanics
 
-### design
+### Design
 - square cards
+- four numbers
+- card effects
 
 ### Creatures
 - directional card damage
+- effects that alter lower planes for creatures (Aura's?)
 
 ### Spells
 - one time use
+- can alter field or creatures
 
-### leaders
-- users character
+### Leaders (champions?)
+- user's character
+- (?)abilities
 
-### events
+### Events
 - permanent non creatures
-- changes the field
+- (?)changes to the field
+  - (?)example: like a river that flows to another plane
 
 ## Board
 
-### design
-- grid based map
-- 4 X 4, 3 X 3, 2 X 2
-- 3 planes getting smaller (aura)
-  1. planes can affect lower planes
-  2. 
+### Rules
+- (?)upper planes can effect lower planes
 
-### setup
-- possible preset places terrain
+### Design
+- grid based map
+- 4 X 4, 3 X 3, 2 X 2(1 X 2?)
+- smallest plane on top (pyramidal)
+
+
+### Setup
+- (?)possible preset places / terrains / encounters
 
 ## Dice 
 
-### rules 
-- pyramid die 
+### Rules 
 - dice as modifiers
-- 3 modifiers plus, minus, crit hit, crit miss
+- 3 d4 modifiers with plus, minus, crit hit, crit miss
     - majority wins:
 ```
     1. + + - = +
-    2. + + + = +
-    3. - - - = -
-    4. + - - = -
-    5. + - C = 0
-    6. C C -/+ = C
-    7. C C C = C+/-
+    2. + + C = +
+    3. + + + = +
+    4. - - - = -
+    5. - - + = -
+    6. - - C = -
+    7. + - C = 0
+    8. C C -/+ = C
+    9. C C C = C+/-
 ```
-## design
+## Design
 - 3 X d4 pyramid dice
 - symbols on dice
