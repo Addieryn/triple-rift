@@ -1,60 +1,74 @@
 # triple-rift
 Game_project
 
+world movers
+
 # GAMEPLAY
+- single player (maybe you can set up dungeons to fight preset monsters by flipping a cards
+- multiplayer (main turn based)
 
 ## Rules
-- place card x1, move(?)rotate card x1, spells unlimited
-- cards only effect lower levels
+- place card x1, move(?)rotate card x1, spells unlimited, 1 event if owned (?)instead of spells
 - most "tamed" wins
 - (?)cards played in any direction
-
+- (?)game ends when all environments are played(timer)
+- (?) first creature cant me tamed/gains block for 1 turn
 
 ## Card mechanics
 
 ### Design
 - square cards
 - four numbers
-- either defence or attack numbers color or symbol coded
+- (?)either defense or attack numbers color or symbol coded
 - card effects
 
 ### Creatures
 - directional card damage
-- effects that alter lower planes for creatures (Aura's?)
-- attack and defense
+- (?)attack and defense
+- (?)abilities
+   1. (?)move enemy card
+   2. (?)block
+   3. 
 
 ### Spells
 - one time use
-- can alter field or creatures
+- can alter/move creatures
 
 ### Leaders (champions?)
 - user's character
 - (?)abilities
 
 ### Events
-- permanent non creatures
-- (?)changes to the field
-  - (?)example: like a river that flows to another plane
+- changes to the field
+- event cards are a part of the player deck limit (?)3
+
+### environment cards
+- draw every turn and must play anywhere
+
+*needs to be bigger then creature cards to read/ or written on sides*
+- certain effects apply to all creatures placed or moved onto space
+
 
 ## Board
 
 ### Rules
-- (?)upper planes can effect lower planes
+- must play creature on an environment
+
 
 ### Design
 - grid based map
-- 4 X 4, 3 X 3, 2 X 2(1 X 2?)
-- smallest plane on top (pyramidal)
-
+- 5 X 5 (alt boards)
 
 ### Setup
 - (?)possible preset places / terrains / encounters
+- maybe they act like a roguelike where each playthrough is different
 
 ## Dice 
 
-### Rules 
+### Rules
+**ATTACKS**
 - dice as modifiers
-- 3 d4 modifiers with plus, minus, crit hit, crit miss
+<!-- - 3 d4 modifiers with plus, minus, crit hit, crit miss
     - majority wins:
 ```
     1. + + - = + (+1)
@@ -64,12 +78,32 @@ Game_project
     5. - - + = - (-1)
     6. - - C = - (-1)
     7. + - C = 0 (0)
-    8. C C -/+ = C (+/- 3)
+    8. C C -/+ = C (+/- 3{2})
     9. C C C = C+/- (+4/miss)
-```
-## Design
-- 3 X d4 tetrahedron dice
-- symbols on dice for +, -, crit hit, crit miss
+``` -->
+- "+ = +1"
+- "- = -1"
+- "neutral = no change"
+- "crit hit = (?)+4(breaks shield for standard dmg)"
+- "crit miss = miss"
 
+
+**MOVE**
+- move to any adjacent space with an environment (8 ways)
+- unless creature is there, or environment says otherwise (possible abilities can use movement swaps)
+
+## Design
+**D20**
+```
+4 sides = -
+4 sides = +
+8 sides = neutral 
+1 side = crit hit
+1 1 side = crit miss
+```
 ## UI for game
 (?)miniatures in game and 3d assets not just cards
+
+
+## dlc
+(?)expansions by environments/region
