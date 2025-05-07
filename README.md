@@ -1,7 +1,13 @@
 # triple-rift
 Game_project
 
+***NAME IDEAS***
+```
 world movers
+world (of) breakers
+world shapers
+world shakers (not taken)
+```
 
 # GAMEPLAY
 - single player (maybe you can set up dungeons to fight preset monsters by flipping a cards
