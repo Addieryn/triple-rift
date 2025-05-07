@@ -26,21 +26,31 @@ world movers
 - directional card damage
 - (?)attack and defense
 - (?)abilities
-   1. (?)move enemy card
-   2. (?)block
-   3. 
+   1. (?)move enemy card **ETB**
+   2. (?)block (one turn) **ETB**
+   3. (?)movement self 
+   4. (?)double strike (advantage/reroll) **ETB**
+   5. (?)range 
+   6. 
+   7. 
 
 ### Spells
 - one time use
 - can alter/move creatures
+  1. teleport
+  2. 
 
-### Leaders (champions?)
+### Commander
 - user's character
 - (?)abilities
+- lower tier of event (like a teaser)
+   
 
 ### Events
 - changes to the field
 - event cards are a part of the player deck limit (?)3
+  1. draft (draw 5 cards and if creature must be played)
+- have to have commander on field
 
 ### environment cards
 - draw every turn and must play anywhere
@@ -81,8 +91,8 @@ world movers
     8. C C -/+ = C (+/- 3{2})
     9. C C C = C+/- (+4/miss)
 ``` -->
-- "+ = +1"
-- "- = -1"
+- "+ = +2"
+- "- = -2"
 - "neutral = no change"
 - "crit hit = (?)+4(breaks shield for standard dmg)"
 - "crit miss = miss"
@@ -97,9 +107,9 @@ world movers
 ```
 4 sides = -
 4 sides = +
-8 sides = neutral 
-1 side = crit hit
-1 1 side = crit miss
+8 sides = neutral (do something with neutral)
+1 side = crit hit (might have a chance for counter attack)
+1 side = crit miss
 ```
 ## UI for game
 (?)miniatures in game and 3d assets not just cards
