@@ -12,6 +12,8 @@ world shakers (not taken)
 # GAMEPLAY
 - single player (maybe you can set up dungeons to fight preset monsters by flipping a cards
 - multiplayer (main turn based)
+- game modes-
+  1. stacking environment for higher level cost cards
 
 ## Rules
 - place card x1, move(?)rotate card x1, spells unlimited, 1 event if owned (?)instead of spells
