@@ -25,6 +25,7 @@ world shakers (not taken)
 ### Design
 - square cards
 - four numbers
+- 2 numbers atk/def
 - (?)either defense or attack numbers color or symbol coded
 - card effects
 
