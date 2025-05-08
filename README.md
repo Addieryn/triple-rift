@@ -24,8 +24,8 @@ world shakers (not taken)
 
 ### Design
 - square cards
-- four numbers
-- 2 numbers atk/def
+- four numbers (?)2 numbers atk/def
+- flippable creatures for attack aode and defense side (possibly a creature token deck and summon cards?
 - (?)either defense or attack numbers color or symbol coded
 - card effects
 
