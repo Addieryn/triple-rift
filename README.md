@@ -28,6 +28,7 @@ world shakers (not taken)
 - square cards
 - four numbers (?)2 numbers atk/def
 - flippable creatures for attack aode and defense side (possibly a creature token deck and summon cards?
+- what if there are defending cards and attacking cards and one slots into another for a team kind of build
 - (?)either defense or attack numbers color or symbol coded
 - card effects
 
