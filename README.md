@@ -12,6 +12,8 @@ world shakers (not taken)
 # GAMEPLAY
 - single player (maybe you can set up dungeons to fight preset monsters by flipping a cards
 - multiplayer (main turn based)
+- game modes-
+  1. stacking environment for higher level cost cards
 
 ## Rules
 - place card x1, move(?)rotate card x1, spells unlimited, 1 event if owned (?)instead of spells
@@ -24,7 +26,9 @@ world shakers (not taken)
 
 ### Design
 - square cards
-- four numbers
+- four numbers (?)2 numbers atk/def
+- flippable creatures for attack aode and defense side (possibly a creature token deck and summon cards?
+- what if there are defending cards and attacking cards and one slots into another for a team kind of build
 - (?)either defense or attack numbers color or symbol coded
 - card effects
 
