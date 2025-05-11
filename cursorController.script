@@ -9,14 +9,14 @@ function init(self)
 		msg.post(".", "acquire_input_focus")
 	end
 
-	cursor.listen(msg.url(#"cursor"), cursor.DRAG_START, function (message_id, messagge)
+	cursor.listen(msg.url(#"cursor"), cursor.DRAG_START, function (message_id, message)
 		print ("drag")
 		--determine whether card should be draggable
 		if message.group == hash("cards") then
 			if canDragCard == false then
 				return true
 			end
-			print("draggin a card")
+			print("dragging a card")
 		elseif message.group == hash("dropzone") then
 			--prevent dragging od dropzones
 			return true
