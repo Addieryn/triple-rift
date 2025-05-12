@@ -1,18 +1,73 @@
 -- import button script from /in folder
 local button = require "in.button"
 local pressed = false
+local cardIndex = 1
+
+local factories = {
+	["c0"] = "/spawner#playerCardFactory",
+	["c1"] = "/spawner#playerCardFactory1",
+	["c2"] = "/spawner#playerCardFactory2",
+	["c3"] = "/spawner#playerCardFactory3",
+	["c4"] = "/spawner#playerCardFactory4",
+	["c5"] = "/spawner#playerCardFactory5",
+	["c6"] = "/spawner#playerCardFactory6",
+	["c7"] = "/spawner#playerCardFactory7",
+	["c8"] = "/spawner#playerCardFactory8",
+	["c9"] = "/spawner#playerCardFactory9",
+	["c10"] = "/spawner#playerCardFactory10",
+	["c11"] = "/spawner#playerCardFactory11",
+	["c12"] = "/spawner#playerCardFactory12",
+	["c13"] = "/spawner#playerCardFactory13",
+	["c14"] = "/spawner#playerCardFactory14",
+	["c15"] = "/spawner#playerCardFactory15",
+	["c16"] = "/spawner#playerCardFactory16",
+	["c17"] = "/spawner#playerCardFactory17",
+	["c18"] = "/spawner#playerCardFactory18",
+	["c19"] = "/spawner#playerCardFactory19",
+	["c20"] = "/spawner#playerCardFactory20",
+	["c21"] = "/spawner#playerCardFactory21",
+	["c22"] = "/spawner#playerCardFactory22",
+	["c23"] = "/spawner#playerCardFactory23",
+	["c24"] = "/spawner#playerCardFactory24",
+	["c25"] = "/spawner#playerCardFactory25",
+	["c26"] = "/spawner#playerCardFactory26",
+	["c27"] = "/spawner#playerCardFactory27",
+	["c28"] = "/spawner#playerCardFactory28",
+	["c29"] = "/spawner#playerCardFactory29",
+	["c30"] = "/spawner#playerCardFactory30",
+}
+
 
 function init(self)
+	function choose_factory()
+		local keys = {}
+		for k in pairs(factories) do
+			table.insert(keys, k)
+		end
+
+		local random_key = keys[math.random(#keys)]
+		local chosen_factory = factories[random_key]
+
+		-- Remove the chosen factory from the dictionary
+		factories[random_key] = nil
+
+		return chosen_factory
+	end
 	button.acquire()
 	button.register("text", function()
 		print ("button!")
 		if not pressed then
 			-- spawn player cards, set their isDraggable property to true, and spawn oppCardBacks
 			for i = 1, 5 do 
-				factory.create("/spawner#playerCardFactory", vmath.vector3(110 + (i * 50), 210, 0), nil, {isDraggable = true}, 0.3)
-				factory.create("/spawner#oppCardFactoryBack", vmath.vector3(110 + (i * 50), 510, 1), nil, nil, 0.3)
+				factory.create("/spawner#oppCardFactoryBack", vmath.vector3(110 + (i * 50), 580, 1), nil, nil, 0.3)
 			end
-			pressed = true
+			if cardIndex <= 5 then
+				-- spawn player card and set its isDraggable property to true
+				local chosen_factory = choose_factory()
+				factory.create(chosen_factory, vmath.vector3(110 + (cardIndex * 50), 72, 0), nil, {isDraggable = true}, 0.3)
+								-- spawn opponent card back
+				cardIndex = cardIndex + 1
+			end
 		end
 	end)
 end
