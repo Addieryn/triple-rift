@@ -1,0 +1,214 @@
+images {
+  image: "/assets/images/board/4X4.png"
+}
+images {
+  image: "/assets/images/board/5X5.png"
+}
+images {
+  image: "/assets/images/empire/e_0.png"
+}
+images {
+  image: "/assets/images/empire/e_1.png"
+}
+images {
+  image: "/assets/images/empire/e_2 copy.png"
+}
+images {
+  image: "/assets/images/empire/e_2.png"
+}
+images {
+  image: "/assets/images/empire/e_3.png"
+}
+images {
+  image: "/assets/images/empire/e_4 copy.png"
+}
+images {
+  image: "/assets/images/empire/e_4.png"
+}
+images {
+  image: "/assets/images/empire/e_5.png"
+}
+images {
+  image: "/assets/images/empire/e_6 copy.png"
+}
+images {
+  image: "/assets/images/empire/e_6.png"
+}
+images {
+  image: "/assets/images/empire/e_7.png"
+}
+images {
+  image: "/assets/images/empire/e_8.png"
+}
+images {
+  image: "/assets/images/empire/e_9 copy.png"
+}
+images {
+  image: "/assets/images/empire/e_9.png"
+}
+images {
+  image: "/assets/images/empire/e_10 copy.png"
+}
+images {
+  image: "/assets/images/empire/e_10.png"
+}
+images {
+  image: "/assets/images/empire/e_11.png"
+}
+images {
+  image: "/assets/images/empire/e_12 copy.png"
+}
+images {
+  image: "/assets/images/empire/e_12.png"
+}
+images {
+  image: "/assets/images/empire/e_13 copy.png"
+}
+images {
+  image: "/assets/images/empire/e_13.png"
+}
+images {
+  image: "/assets/images/empire/e_14.png"
+}
+images {
+  image: "/assets/images/empire/e_15.png"
+}
+images {
+  image: "/assets/images/empire/e_16.png"
+}
+images {
+  image: "/assets/images/empire/e_17.png"
+}
+images {
+  image: "/assets/images/empire/e_18 copy.png"
+}
+images {
+  image: "/assets/images/empire/e_18.png"
+}
+images {
+  image: "/assets/images/empire/e_19.png"
+}
+images {
+  image: "/assets/images/empire/e_20.png"
+}
+images {
+  image: "/assets/images/empire/e_21.png"
+}
+images {
+  image: "/assets/images/empire/e_22.png"
+}
+images {
+  image: "/assets/images/ocean/o_0.png"
+}
+images {
+  image: "/assets/images/ocean/o_1.png"
+}
+images {
+  image: "/assets/images/ocean/o_2 copy.png"
+}
+images {
+  image: "/assets/images/ocean/o_2.png"
+}
+images {
+  image: "/assets/images/ocean/o_3.png"
+}
+images {
+  image: "/assets/images/ocean/o_4.png"
+}
+images {
+  image: "/assets/images/ocean/o_5 copy.png"
+}
+images {
+  image: "/assets/images/ocean/o_5.png"
+}
+images {
+  image: "/assets/images/ocean/o_6.png"
+}
+images {
+  image: "/assets/images/ocean/o_7 copy.png"
+}
+images {
+  image: "/assets/images/ocean/o_7.png"
+}
+images {
+  image: "/assets/images/ocean/o_8.png"
+}
+images {
+  image: "/assets/images/ocean/o_9.png"
+}
+images {
+  image: "/assets/images/ocean/o_10.png"
+}
+images {
+  image: "/assets/images/ocean/o_11.png"
+}
+images {
+  image: "/assets/images/ocean/o_12.png"
+}
+images {
+  image: "/assets/images/ocean/o_13.png"
+}
+images {
+  image: "/assets/images/ocean/o_14.png"
+}
+images {
+  image: "/assets/images/ocean/o_15.png"
+}
+images {
+  image: "/assets/images/ocean/o_16.png"
+}
+images {
+  image: "/assets/images/ocean/o_17.png"
+}
+images {
+  image: "/assets/images/ocean/o_18 copy.png"
+}
+images {
+  image: "/assets/images/ocean/o_18.png"
+}
+images {
+  image: "/assets/images/ocean/o_19 copy.png"
+}
+images {
+  image: "/assets/images/ocean/o_19.png"
+}
+images {
+  image: "/assets/images/ocean/o_20 copy.png"
+}
+images {
+  image: "/assets/images/ocean/o_20.png"
+}
+images {
+  image: "/assets/images/ocean/o_21 copy.png"
+}
+images {
+  image: "/assets/images/ocean/o_21.png"
+}
+images {
+  image: "/assets/images/ocean/o_22 copy.png"
+}
+images {
+  image: "/assets/images/ocean/o_22.png"
+}
+images {
+  image: "/assets/images/token/token_1.png"
+}
+images {
+  image: "/assets/images/token/token_2.png"
+}
+images {
+  image: "/assets/images/token/token_a.png"
+}
+images {
+  image: "/assets/images/token/token_anchor.png"
+}
+images {
+  image: "/assets/images/token/token_b.png"
+}
+images {
+  image: "/assets/images/token/token_block.png"
+}
+images {
+  image: "/assets/images/back.png"
+}
+extrude_borders: 2
