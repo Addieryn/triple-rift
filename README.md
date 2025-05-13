@@ -13,11 +13,24 @@ world shakers (not taken)
 - single player (maybe you can set up dungeons to fight preset monsters by flipping a cards
 - multiplayer (main turn based)
 - game modes-
-  1. stacking environment for higher level cost cards
+  1. Tamer 
+  2. kill the commander
+  3. path to commander
+  4. gladiator champion
+  5. single player dungeon crawlers
 
 ## Rules
-- place card x1, move(?)rotate card x1, spells unlimited, 1 event if owned (?)instead of spells
-- most "tamed" wins
+- PHASE:
+  1. DRAW card x1 
+  2. Draw and place environment card x1 
+  3. place card x1 
+  4. move or rotate card x1 
+  5. spells unlimited 
+  6. 1 event if owned (?)instead of spells
+
+- no colors 
+- most "tamed" wins (game mode)
+- (?)commanders have a re-attack
 - (?)cards played in any direction
 - (?)game ends when all environments are played(timer)
 - (?) first creature cant me tamed/gains block for 1 turn
@@ -27,7 +40,7 @@ world shakers (not taken)
 ### Design
 - square cards
 - four numbers (?)2 numbers atk/def
-- flippable creatures for attack aode and defense side (possibly a creature token deck and summon cards?
+- flippable creatures for attack mode and defense side (possibly a creature token deck and summon cards?
 - what if there are defending cards and attacking cards and one slots into another for a team kind of build
 - (?)either defense or attack numbers color or symbol coded
 - card effects
