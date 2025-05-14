@@ -1,10 +1,11 @@
 -- import button script from /in folder
 local button = require "in.button"
 local pressed = false
-local cardIndex = 1
+local user_hand = 1
+local tamer_held = false
 
-local factories = {
-	["c0"] = "/spawner#playerCardFactory",
+local user_deck = {
+	-- ["c0"] = "/spawner#playerCardFactory",
 	["c1"] = "/spawner#playerCardFactory1",
 	["c2"] = "/spawner#playerCardFactory2",
 	["c3"] = "/spawner#playerCardFactory3",
@@ -39,19 +40,19 @@ local factories = {
 
 
 function init(self)
-	function choose_factory()
+	function choose_card()
 		local keys = {}
-		for k in pairs(factories) do
+		for k in pairs(user_deck) do
 			table.insert(keys, k)
 		end
 
 		local random_key = keys[math.random(#keys)]
-		local chosen_factory = factories[random_key]
+		local chosen_card = user_deck[random_key]
 
 		-- Remove the chosen factory from the dictionary
-		factories[random_key] = nil
+		user_deck[random_key] = nil
 
-		return chosen_factory
+		return chosen_card
 	end
 	button.acquire()
 	button.register("text", function()
@@ -61,12 +62,16 @@ function init(self)
 			for i = 1, 5 do 
 				factory.create("/spawner#oppCardFactoryBack", vmath.vector3(110 + (i * 50), 580, 1), nil, nil, 0.3)
 			end
-			if cardIndex <= 5 then
+			if user_hand <= 5 and tamer_held == true then
 				-- spawn player card and set its isDraggable property to true
-				local chosen_factory = choose_factory()
-				factory.create(chosen_factory, vmath.vector3(110 + (cardIndex * 50), 72, 0), nil, {isDraggable = true}, 0.3)
-								-- spawn opponent card back
-				cardIndex = cardIndex + 1
+				local chosen_card = choose_card()
+				factory.create(chosen_card, vmath.vector3(110 + (user_hand * 50), 72, 0), nil, {isDraggable = true}, 0.3)
+				-- spawn opponent card back
+				user_hand = user_hand + 1
+			-- adding tamer being drawn first
+			elseif tamer_held == false then
+				factory.create("/spawner#playerCardFactory", vmath.vector3(110 + (25), 72, 0), nil, {isDraggable = true}, 0.3)
+				tamer_held = true
 			end
 		end
 	end)
