@@ -1,6 +1,9 @@
 # triple-rift
 Game_project
 
+add john to game
+add tyreese as basketball weirder 
+
 ***NAME IDEAS***
 ```
 world movers
