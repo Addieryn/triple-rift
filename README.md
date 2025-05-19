@@ -8,13 +8,13 @@ Game_project
 
 ***NAME IDEAS***
 #### game modes:
-Areana
-Tamers
-Tactics
+- Areana
+- Tamers
+- Tactics
 
 #### expantions:
-Arise
-The Fall
+- Arise
+- The Fall
 
 # GAMEPLAY
 - single player (maybe you can set up dungeons to fight preset monsters by flipping a cards
