@@ -1,4 +1,4 @@
-# Legendary: Origins
+# Legendary: Origins (Creative card game)
 Game_project
 
 1. add john to game (cave monk?)
