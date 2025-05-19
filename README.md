@@ -5,12 +5,14 @@ add john to game
 add tyreese as basketball weirder 
 
 ***NAME IDEAS***
-```
-world movers
-world (of) breakers
-world shapers
-world shakers (not taken)
-```
+#### game modes:
+Areana
+Tamers
+Tactics
+
+#### expantions:
+Arise
+The Fall
 
 # GAMEPLAY
 - single player (maybe you can set up dungeons to fight preset monsters by flipping a cards
