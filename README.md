@@ -93,7 +93,7 @@ Game_project
    6. 
    7. 
 
-<img src="images/prototypes/Untitled.png" width="300" height="200">
+<img src="images/prototypes/Untitled.png" width="300" height="300">
 
 ### Spells
 - one time use
