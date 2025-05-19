@@ -1,4 +1,4 @@
-# triple-rift
+# Legendary: Origins
 Game_project
 
 add john to game
