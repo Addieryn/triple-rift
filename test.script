@@ -1,3 +1,87 @@
+-- import button script from /in folder
+local button = require "in.button"
+local pressed = false
+local user_hand = 1
+
+local user_deck = {
+	["c0"] = "/spawner#playerCardFactory",
+	["c1"] = "/spawner#playerCardFactory1",
+	["c2"] = "/spawner#playerCardFactory2",
+	["c3"] = "/spawner#playerCardFactory3",
+	["c4"] = "/spawner#playerCardFactory4",
+	["c5"] = "/spawner#playerCardFactory5",
+	["c6"] = "/spawner#playerCardFactory6",
+	["c7"] = "/spawner#playerCardFactory7",
+	["c8"] = "/spawner#playerCardFactory8",
+	["c9"] = "/spawner#playerCardFactory9",
+	["c10"] = "/spawner#playerCardFactory10",
+	["c11"] = "/spawner#playerCardFactory11",
+	["c12"] = "/spawner#playerCardFactory12",
+	["c13"] = "/spawner#playerCardFactory13",
+	["c14"] = "/spawner#playerCardFactory14",
+	["c15"] = "/spawner#playerCardFactory15",
+	["c16"] = "/spawner#playerCardFactory16",
+	["c17"] = "/spawner#playerCardFactory17",
+	["c18"] = "/spawner#playerCardFactory18",
+	["c19"] = "/spawner#playerCardFactory19",
+	["c20"] = "/spawner#playerCardFactory20",
+	["c21"] = "/spawner#playerCardFactory21",
+	["c22"] = "/spawner#playerCardFactory22",
+	["c23"] = "/spawner#playerCardFactory23",
+	["c24"] = "/spawner#playerCardFactory24",
+	["c25"] = "/spawner#playerCardFactory25",
+	["c26"] = "/spawner#playerCardFactory26",
+	["c27"] = "/spawner#playerCardFactory27",
+	["c28"] = "/spawner#playerCardFactory28",
+	["c29"] = "/spawner#playerCardFactory29",
+	["c30"] = "/spawner#playerCardFactory30",
+}
+
+
+function init(self)
+	function choose_card()
+		local keys = {}
+		for k in pairs(user_deck) do
+			table.insert(keys, k)
+		end
+
+		local random_key = keys[math.random(#keys)]
+		local chosen_card = user_deck[random_key]
+
+		-- Remove the chosen factory from the dictionary
+		user_deck[random_key] = nil
+
+		return chosen_card
+	end
+	button.acquire()
+	button.register("text", function()
+		print ("button!")
+		if not pressed then
+			-- spawn player cards, set their isDraggable property to true, and spawn oppCardBacks
+			for i = 1, 5 do 
+				factory.create("/spawner#oppCardFactoryBack", vmath.vector3(110 + (i * 50), 580, 1), nil, nil, 0.3)
+			end
+			if user_hand <= 5 then
+				-- spawn player card and set its isDraggable property to true
+				local chosen_card = choose_card()
+				factory.create(chosen_card, vmath.vector3(110 + (user_hand * 50), 72, 0), nil, {isDraggable = true}, 0.3)
+				-- spawn opponent card back
+				user_hand = user_hand + 1			
+			end
+		end
+	end)
+end
+
+function final(self)
+	button.unregister()
+end
+
+function on_input(self, action_id, action)
+	button.on_input(action_id, action)
+end
+
+-- "-----------------------------------------------"
+
 --import cursor script from /in folder declare local variables
 local cursor = require "in.cursor"
 local canDragCard = false
@@ -16,7 +100,7 @@ function init(self)
 			if canDragCard == false then
 				return true
 			end
-			print("dragging a card")
+			print("draggin a card")
 		elseif message.group == hash("dropzone") then
 			--prevent dragging od dropzones
 			return true
@@ -26,7 +110,7 @@ function init(self)
 end
 
 function on_input(self, action_id, action)
-	if self.post.forward_input then
+	if self.forward_input then
 		msg.post("#cursor", "input", { action_id = action_id, action = action})
 	end
 end
@@ -63,9 +147,14 @@ function on_message(self, message_id, message, sender)
 		print("Drag ended", message.id, message.group, message.x, message.y)
 		--incrementally display cards over dropzones
 		if message.group == hash("cards") and self.over_dropzone then
-			local p = vmath.vector3(550 + (cardsInDropZone * 50), 547, 1)
+			local p = vmath.vector3(102 + (cardsInDropZone * 115), 485, 1)
 			go.set_position(p, message.id)
 			cardsInDropZone = cardsInDropZone + 1
+			if message.x >= 560 and message.y >= 485 then
+				local p = vmath.vector3(102 + (cardsInDropZone * 115), 400, 1)
+				go.set_position(p, message.id)
+				cardsInDropZone = cardsInDropZone + 1
+			end
 		end
 	elseif message_id == cursor.DRAG then
 		print("Drag", message.id, message.group, message.x, message.y, message.dx, message.dy)

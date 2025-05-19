@@ -60,7 +60,7 @@ function init(self)
 		if not pressed then
 			-- spawn player cards, set their isDraggable property to true, and spawn oppCardBacks
 			for i = 1, 5 do 
-				factory.create("/spawner#oppCardFactoryBack", vmath.vector3(110 + (i * 50), 580, 1), nil, nil, 0.3)
+				factory.create("/spawner#oppCardFactoryBack", vmath.vector3(110 + (i * 50), 585, 1), nil, nil, 0.3)
 			end
 			if user_hand <= 5 and tamer_held == true then
 				-- spawn player card and set its isDraggable property to true
