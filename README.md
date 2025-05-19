@@ -25,8 +25,10 @@ Game_project
   3. path to Legend
   4. gladiator champion
   5. single player dungeon crawlers
+  6. rougelike card game (encounters based)
 
 ## Rules
+### Tamers
 - PHASE:
   1. DRAW card x1 
   2. Draw and place terrain card x1 
@@ -35,12 +37,40 @@ Game_project
   5. spells unlimited 
   6. 1 event if owned (?)instead of spells
 
-- no colors 
-- most "tamed" wins (game mode)
-- (?)legends have a re-attack
+- cannot place creature on top of other creature
+- no colors matter
+- most "tamed" wins
+- (?)legends have a re-attack (token)
 - (?)cards played in any direction
 - (?)game ends when all terrains are played(timer)
-- (?) first creature cant me tamed/gains block for 1 turn
+- (?) first creature cant be tamed/gains block for 1 turn
+
+### Areana
+- PHASE:
+  1. draw
+  2. 
+
+### Kill the commander
+- PHASE:
+  1. draw
+  2.  
+
+
+### Paths to legends
+- PHASE:
+  1. draw
+  2. 
+
+### Dungeons
+- PHASE:
+  1. draw
+  2. 
+
+### Encounters
+- PHASE:
+  1. draw
+  2. 
+
 
 ## Card mechanics
 
