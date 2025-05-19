@@ -111,7 +111,7 @@ Game_project
   1. draft (draw 5 cards and if creature must be played)
 - have to have legends on field
 
-### terrain cards
+### Terrains
 - draw every turn and must play anywhere
 
 *needs to be bigger then creature cards to read/ or written on sides*
@@ -119,10 +119,6 @@ Game_project
 
 
 ## Board
-
-### Rules
-- must play creature on an terrain
-
 
 ### Design
 - grid based map
