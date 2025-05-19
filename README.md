@@ -1,5 +1,5 @@
 # Legendary: Origins (Creative card game)
-Game_project
+Game_project by 37th Parallel(lateral)
 
 1. add john to game (cave monk?)
 2. add tyreese (basketball weirder)
