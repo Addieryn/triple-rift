@@ -1,8 +1,10 @@
 # Legendary: Origins
 Game_project
 
-add john to game
-add tyreese as basketball weirder 
+add john to game (cave monk?)
+add tyreese (basketball weirder)
+add Ryan (Rianheart judge warhammer big poofy eyebrows Legend/cataclysm)
+
 
 ***NAME IDEAS***
 #### game modes:
@@ -20,14 +22,14 @@ The Fall
 - game modes-
   1. Tamer 
   2. kill the commander
-  3. path to commander
+  3. path to Legend
   4. gladiator champion
   5. single player dungeon crawlers
 
 ## Rules
 - PHASE:
   1. DRAW card x1 
-  2. Draw and place environment card x1 
+  2. Draw and place terrain card x1 
   3. place card x1 
   4. move or rotate card x1 
   5. spells unlimited 
@@ -35,9 +37,9 @@ The Fall
 
 - no colors 
 - most "tamed" wins (game mode)
-- (?)commanders have a re-attack
+- (?)legends have a re-attack
 - (?)cards played in any direction
-- (?)game ends when all environments are played(timer)
+- (?)game ends when all terrains are played(timer)
 - (?) first creature cant me tamed/gains block for 1 turn
 
 ## Card mechanics
@@ -45,10 +47,9 @@ The Fall
 ### Design
 - square cards
 - four numbers (?)2 numbers atk/def
-- flippable creatures for attack mode and defense side (possibly a creature token deck and summon cards?
-- what if there are defending cards and attacking cards and one slots into another for a team kind of build
 - (?)either defense or attack numbers color or symbol coded
 - card effects
+- 
 
 ### Creatures
 - directional card damage
@@ -68,19 +69,19 @@ The Fall
   1. teleport
   2. 
 
-### Commander
+### Legends
 - user's character
 - (?)abilities
-- lower tier of event (like a teaser)
+- lower tier of cataclysm (like a teaser)
    
 
-### Events
+### Cataclysm
 - changes to the field
-- event cards are a part of the player deck limit (?)3
+- cataclysm cards are a part of the player deck limit (?)3
   1. draft (draw 5 cards and if creature must be played)
-- have to have commander on field
+- have to have legends on field
 
-### environment cards
+### terrain cards
 - draw every turn and must play anywhere
 
 *needs to be bigger then creature cards to read/ or written on sides*
@@ -90,7 +91,7 @@ The Fall
 ## Board
 
 ### Rules
-- must play creature on an environment
+- must play creature on an terrain
 
 
 ### Design
@@ -127,8 +128,8 @@ The Fall
 
 
 **MOVE**
-- move to any adjacent space with an environment (8 ways)
-- unless creature is there, or environment says otherwise (possible abilities can use movement swaps)
+- move to any adjacent space with an terrain (8 ways)
+- unless creature is there, or terrain says otherwise (possible abilities can use movement swaps)
 
 ## Design
 **D20**
