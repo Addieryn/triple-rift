@@ -1,8 +1,8 @@
 # Legendary: Origins
 Game_project
 
-1. add john to game (cave monk?),
-2. add tyreese (basketball weirder),
+1. add john to game (cave monk?)
+2. add tyreese (basketball weirder)
 3. add Ryan (Rianheart judge warhammer big poofy eyebrows Legend/cataclysm)
 
 
