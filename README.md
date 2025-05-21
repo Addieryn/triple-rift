@@ -35,7 +35,7 @@ Game_project by 37th Parallel(lateral)
   3. place card x1 
   4. move or rotate card x1 
   5. spells unlimited 
-  6. 1 event if owned (?)instead of spells
+  6. 1 cataclysm if owned and legend on board (?)instead of spells
 
 - cannot place creature on top of other creature
 - no colors matter
@@ -44,6 +44,8 @@ Game_project by 37th Parallel(lateral)
 - (?)cards played in any direction
 - (?)game ends when all terrains are played(timer)
 - (?) first creature cant be tamed/gains block for 1 turn
+- movement can be done when card is summoned
+- draw for setup 3 (odd number) plave anywhere terrain 
 
 ### Areana
 - PHASE:
@@ -90,7 +92,7 @@ Game_project by 37th Parallel(lateral)
    3. (?)movement self 
    4. (?)double strike (advantage/reroll) **ETB**
    5. (?)range 
-   6. 
+   6. haste
    7. 
 
 <img src="images/prototypes/Untitled.png" width="300" height="300">
