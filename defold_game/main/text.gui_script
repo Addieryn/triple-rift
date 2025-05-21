@@ -1,7 +1,7 @@
 -- import button script from /in folder
 local button = require "in.button"
 local pressed = false
-local user_hand = 1
+user_hand = 1
 local tamer_held = false
 
 local user_deck = {

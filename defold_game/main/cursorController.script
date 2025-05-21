@@ -26,6 +26,22 @@ function init(self)
 		end
 
 	end)
+
+	-- testing to find game object collision object url for later use
+	for i = 1, 16 do
+		local col_url = msg.url("/board#zone" .. i)
+		print(col_url)
+	end
+	
+	
+end
+
+
+-- range function
+local function range(min, max)
+	return function(x)
+		return x >= min and x <= max
+	end
 end
 
 function on_input(self, action_id, action)
@@ -35,7 +51,7 @@ function on_input(self, action_id, action)
 end
 
 function on_message(self, message_id, message, sender)
-	if message_id == cursor.OVER then
+		if message_id == cursor.OVER then
 		print("Cursor over", message.id, message.group, message.x, message.y)
 		if message.group == hash("dropzone") then
 			self.over_dropzone = true
@@ -64,23 +80,49 @@ function on_message(self, message_id, message, sender)
 		print("Drag started", message.id, message.group, message.x, message.y)
 	elseif message_id == cursor.DRAG_END then
 		print("Drag ended", message.id, message.group, message.x, message.y)
-		--incrementally display cards over dropzones
+		--incrementally display cards over dropzones and dropzone
 		if message.group == hash("cards") and self.over_dropzone then
-			if x_pos < 4 and y_pos < 4 then
-				local p = vmath.vector3(102 + (cardsInDropZone * 115), 485, 1)
-				go.set_position(p, message.id)
-				cardsInDropZone = cardsInDropZone + 1
-				x_pos = x_pos + 1
-				y_pos = y_pos + 1
-				print(x_pos, y_pos)
-			elseif x_pos == 4 and y_pos == 4 and cardsInDropZone == 4 then
-				cardsInDropZone = 0
-			elseif x_pos >= 4 and y_pos <= 4 then
-				local p = vmath.vector3(102 + (cardsInDropZone * 115), 382, 1)
-				go.set_position(p, message.id)
-				cardsInDropZone = cardsInDropZone + 1
-			end
-			
+				if x_pos < 4 and y_pos < 4 then
+					local p = vmath.vector3(102 + (cardsInDropZone * 115), 485, 1)
+					go.set_position(p, message.id)
+					cardsInDropZone = cardsInDropZone + 1
+					x_pos = x_pos + 1
+					y_pos = y_pos + 1
+					print(x_pos, y_pos)
+					if x_pos == 4 and y_pos == 4 and cardsInDropZone == 4 then
+						cardsInDropZone = 0
+					end
+				elseif range(4, 8)(x_pos) and range(4, 8)(y_pos) then
+					local p = vmath.vector3(102 + (cardsInDropZone * 115), 382, 1)
+					go.set_position(p, message.id)
+					cardsInDropZone = cardsInDropZone + 1
+					x_pos = x_pos + 1
+					y_pos = y_pos + 1
+					if range(4, 8)(x_pos) and range(4, 8)(y_pos) and cardsInDropZone == 4 then
+						cardsInDropZone = 0
+					end
+					print(x_pos,y_pos)
+				elseif range(9, 12)(x_pos) and range(9, 12)(y_pos) then
+					local p = vmath.vector3(102 + (cardsInDropZone * 115), 270, 1)
+					go.set_position(p, message.id)
+					cardsInDropZone = cardsInDropZone + 1
+					x_pos = x_pos + 1
+					y_pos = y_pos + 1
+					if range(9, 12)(x_pos) and range(9, 12)(y_pos) and cardsInDropZone == 4 then
+						cardsInDropZone = 0
+					end
+				elseif range(12, 15)(x_pos) and range(12, 15)(y_pos) then
+					local p = vmath.vector3(102 + (cardsInDropZone * 115), 176, 1)
+					go.set_position(p, message.id)
+					cardsInDropZone = cardsInDropZone + 1
+					x_pos = x_pos + 1
+					y_pos = y_pos + 1
+					if range(12, 15)(x_pos) and range(12, 15)(y_pos) and cardsInDropZone == 4 then
+						cardsInDropZone = 0
+					end
+				end
+				user_hand = user_hand - 1
+				
 		end
 	elseif message_id == cursor.DRAG then
 		print("Drag", message.id, message.group, message.x, message.y, message.dx, message.dy)
