@@ -99,7 +99,7 @@ Game_project by 37th Parallel(lateral)
 
 Square size
 
-<img src="images/prototypes/standard_card.png" width="250" height="350">
+<img src="images/prototypes/test_4.png" width="250" height="350">
 
 Standard size
 
