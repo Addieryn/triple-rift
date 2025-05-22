@@ -163,3 +163,4 @@ function on_message(self, message_id, message, sender)
 		go.set_position(vmath.vector3(p.x, p.y, 1), message.id)
 	end
 end		
+

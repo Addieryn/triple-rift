@@ -95,7 +95,14 @@ Game_project by 37th Parallel(lateral)
    6. haste
    7. 
 
-<img src="images/prototypes/Untitled.png" width="300" height="300">
+<img src="images/prototypes/square_card.png" width="250" height="250">
+
+Square size
+
+<img src="images/prototypes/standard_card.png" width="250" height="350">
+
+Standard size
+
 
 ### Spells
 - one time use
