@@ -101,8 +101,6 @@ Square size
 
 <img src="images/prototypes/creature_card.png" width="250" height="350">
 
-<img src="images/prototypes/test_4.png" width="250" height="350">
-
 Standard size
 
 
@@ -132,7 +130,7 @@ Standard size
 
 <img src="images/prototypes/terrain_card.png" width="250" height="350">
 
-<img src="images/prototypes/played_together_test.png" width="250" height="350">
+<img src="images/prototypes/played_together_test.png" width="350" height="350">
 
 Played together
 
