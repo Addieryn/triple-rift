@@ -99,7 +99,7 @@ Game_project by 37th Parallel(lateral)
 
 Square size
 
-<img src="images/prototypes/standard_card.png" width="250" height="350">
+<img src="images/prototypes/creature_card.png" width="250" height="350">
 
 Standard size
 
@@ -128,6 +128,11 @@ Standard size
 *needs to be bigger then creature cards to read/ or written on sides*
 - certain effects apply to all creatures placed or moved onto space
 
+<img src="images/prototypes/terrain_card.png" width="250" height="350">
+
+<img src="images/prototypes/played_together_test.png" width="250" height="350">
+
+Played together
 
 ## Board
 
