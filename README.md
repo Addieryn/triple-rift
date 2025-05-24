@@ -117,13 +117,18 @@ Standard size
 - user's character
 - (?)abilities
 - lower tier of cataclysm (like a teaser)
-   
+
+<img src="images/prototypes/legend_final.png" width="250" height="350">
+
 
 ### Cataclysm
 - changes to the field
 - cataclysm cards are a part of the player deck limit (?)3
   1. draft (draw 5 cards and if creature must be played)
 - have to have legends on field
+
+<img src="images/prototypes/cataclysm_final.png" width="250" height="350">
+
 
 ### Terrains
 - draw every turn and must play anywhere
