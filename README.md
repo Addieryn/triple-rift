@@ -99,7 +99,7 @@ Game_project by 37th Parallel(lateral)
 
 Square size
 
-<img src="images/prototypes/creature_card.png" width="250" height="350">
+<img src="images/prototypes/creature_final.png" width="280" height="350">
 
 Standard size
 
@@ -109,6 +109,8 @@ Standard size
 - can alter/move creatures
   1. teleport
   2. 
+
+<img src="images/prototypes/spell_final.png" width="250" height="350">
 
 ### Legends
 - user's character
@@ -128,9 +130,11 @@ Standard size
 *needs to be bigger then creature cards to read/ or written on sides*
 - certain effects apply to all creatures placed or moved onto space
 
-<img src="images/prototypes/terrain_card.png" width="250" height="350">
+<img src="images/prototypes/terrain_final.png" width="250" height="350">
 
-<img src="images/prototypes/played_together_test.png" width="350" height="350">
+Terrain card
+
+<img src="images/prototypes/together_cleaner.png" width="350" height="350">
 
 Played together
 
