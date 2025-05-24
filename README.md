@@ -5,6 +5,7 @@ Game_project by 37th Parallel(lateral)
 2. add tyreese (basketball weirder)
 3. add Ryan (Rianheart judge warhammer big poofy eyebrows Legend/cataclysm)
 4. add Jacques as spell card the plays music to hypnotize enemies for 1 turn
+5. corina legend assasain
 
 ***NAME IDEAS***
 #### game modes:
