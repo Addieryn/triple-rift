@@ -100,7 +100,7 @@ Game_project by 37th Parallel(lateral)
 
 Square size
 
-<img src="images/prototypes/creature_final.png" width="280" height="350">
+<img src="images/prototypes/creature_final.png" width="250" height="350">
 
 Standard size
 
