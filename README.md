@@ -5,33 +5,40 @@ Game_project by 37th Parallel(lateral)
 2. add tyreese (basketball weirder)
 3. add Ryan (Rianheart judge warhammer big poofy eyebrows Legend/cataclysm)
 4. add Jacques as spell card the plays music to hypnotize enemies for 1 turn
-5. corina legend assasain (psyco: can remove ajacent card/ cataclysm: remove multiple but has to be even sides)
+5. add corina legend assassin (psych0: can remove adjacent card/ cataclysm: remove multiple but has to be even sides)
 
 ***NAME IDEAS***
 #### game modes:
-- Areana
-- Tamers
-- Tactics
+- Arena (gladiator)
+- Corruption (taming)
+- Tactics (paths)
+- War (kill the commander)
+- Ruins (dungeons)
+- Arise (encounters)
 
 #### expantions:
+- Shattered
+- Forged
 - Arise
 - The Fall
 
 # GAMEPLAY
-- single player (maybe you can set up dungeons to fight preset monsters by flipping a cards
-- multiplayer (main turn based)
-- game modes-
-  1. Tamer 
-  2. kill the commander
-  3. path to Legend
-  4. gladiator champion
-  5. single player dungeon crawlers
-  6. rougelike card game (encounters based)
+1. single player -s
+2. duel - d
+3. multiplayer -m
+
+- **game modes**
+  1. Tamer type - d/m
+  2. Kill the commander - d/m
+  3. Path building strategy - d/m
+  4. Gladiator duel - d/m
+  5. Dungeon crawlers - s/m
+  6. Rougelike card game (encounters based) - s
 
 ## Rules
 ### Tamers
 - PHASE:
-  1. DRAW card x1 
+  1. DRAW card x1 (from spell or creature deck)
   2. Draw and place terrain card x1 
   3. place card x1 
   4. move or rotate card x1 
@@ -43,10 +50,10 @@ Game_project by 37th Parallel(lateral)
 - most "tamed" wins
 - (?)legends have a re-attack (token)
 - (?)cards played in any direction
-- (?)game ends when all terrains are played(timer)
+- (?)game ends when all terrains are played(timer) {30}
 - (?) first creature cant be tamed/gains block for 1 turn
-- movement can be done when card is summoned
-- draw for setup 3 (odd number) plave anywhere terrain 
+- movement can be done when card is summoned (motion sickness)
+- draw for setup 3 (odd number) play anywhere terrain 
 
 ### Areana
 - PHASE:
@@ -78,19 +85,18 @@ Game_project by 37th Parallel(lateral)
 ## Card mechanics
 
 ### Design
-- square cards
-- four numbers (?)2 numbers atk/def
-- (?)either defense or attack numbers color or symbol coded
+- square cards (probably not) 
+- directional card damage: 4 defense numbers, 1 attack in two places
 - card effects
-- 
+- symbols for abilities 
 
 ### Creatures
-- directional card damage
-- (?)attack and defense
+- attack all sides at summon
+- directional defense
 - (?)abilities
    1. (?)move enemy card **ETB**
    2. (?)block (one turn) **ETB**
-   3. (?)movement self 
+   3. mobility
    4. (?)double strike (advantage/reroll) **ETB**
    5. (?)range 
    6. haste
@@ -102,47 +108,72 @@ Square size
 
 <img src="images/prototypes/creature_final.png" width="250" height="350">
 
-Standard size
-
-
-### Spells
-- one time use
-- can alter/move creatures
-  1. teleport
-  2. 
-
-<img src="images/prototypes/spell_final.png" width="250" height="350">
-
-### Legends
-- user's character
-- (?)abilities
-- lower tier of cataclysm (like a teaser)
-
-<img src="images/prototypes/legend_final.png" width="250" height="350">
-
-
-### Cataclysm
-- changes to the field
-- cataclysm cards are a part of the player deck limit (?)3
-  1. draft (draw 5 cards and if creature must be played)
-- have to have legends on field
-
-<img src="images/prototypes/cataclysm_final.png" width="250" height="350">
+- name of creature
+- attack value
+- defense values around art
+- symbols for abilities/effects
+- card lore (perhaps)
+- color of card depends on creature
 
 
 ### Terrains
 - draw every turn and must play anywhere
-
+- stackable up to 3
 *needs to be bigger then creature cards to read/ or written on sides*
 - certain effects apply to all creatures placed or moved onto space
 
 <img src="images/prototypes/terrain_final.png" width="250" height="350">
 
-Terrain card
+- card effect symbol
+- name of terrain
+- symbol for terrain colors
+- color border around art
+- description of effect (story telling)
+
 
 <img src="images/prototypes/together_cleaner.png" width="350" height="350">
 
 Played together
+
+### Spells
+- one time use
+- can alter/move creatures
+  1. teleport
+  2. draw a card
+
+<img src="images/prototypes/spell_final.png" width="250" height="350">
+
+- name of spell
+- spell symbol
+- spell description small art border
+
+### Legends
+- user's main
+- lower tier of cataclysm (like a teaser)
+   1. move enemy creature
+   2. 
+
+<img src="images/prototypes/legend_final.png" width="250" height="350">
+
+- name of legend
+- attack number (silver)
+- defense numbers around art (silver)
+- all black with color of type
+- on play effect, ability, cataclysm description w/ symbols related to it
+
+### Cataclysm
+- changes to the field in a big way
+- cataclysm cards are a part of the player deck limit 1
+- have to have legends on field
+  1. draft (draw 5 cards and if creature must be played)
+  2. assassinate (destroy equal amount of creatures)
+
+<img src="images/prototypes/cataclysm_final.png" width="250" height="350">
+
+- art full card
+- nice border
+- cataclysm word
+- cataclysm symbol
 
 ## Board
 
@@ -150,9 +181,6 @@ Played together
 - grid based map
 - 5 X 5 (alt boards)
 
-### Setup
-- (?)possible preset places / terrains / encounters
-- maybe they act like a roguelike where each playthrough is different
 
 ## Dice 
 
@@ -192,6 +220,7 @@ Played together
 1 side = crit hit (might have a chance for counter attack)
 1 side = crit miss
 ```
+
 ## UI for game
 (?)miniatures in game and 3d assets not just cards
 
