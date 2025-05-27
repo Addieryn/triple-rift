@@ -93,19 +93,19 @@ Game_project by 37th Parallel(lateral)
 ## Card mechanics
 
 ### ICONS
-- Movement
+- **Movement**
   1. move enemy card
   2. move own card
   3. steadfast -cant be moved-
   4. poise -no motion sick-
-- Attack
+- **Attack**
   1. slow -takes movement to attack- 
   2. plus 1 to attack
   3. 
-- Defense
+- **Defense**
   1. block
   2. 
-- Deck
+- **Deck**
   1. Draw a card
   2. 
 
