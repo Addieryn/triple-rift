@@ -9,7 +9,7 @@ Game_project by 37th Parallel(lateral)
 
 ### Ideas:
 - passive abilities have an icon and can be used as token-ish for other games
-
+- 
 
 
 ***NAME IDEAS***
@@ -97,7 +97,8 @@ Game_project by 37th Parallel(lateral)
   4. poise -no motion sick-
 - Attack
   1. slow -takes movement to attack- 
-  2. 
+  2. plus 1 to attack
+  3. 
 - Defense
   1. block
   2. 
