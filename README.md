@@ -106,7 +106,7 @@ Game_project by 37th Parallel(lateral)
 
 Square size
 
-<img src="images/prototypes/creature_final.png" width="250" height="350">
+<img src="images/prototypes/creature/creature_final.png" width="250" height="350">
 
 - name of creature
 - attack value
@@ -122,7 +122,7 @@ Square size
 *needs to be bigger then creature cards to read/ or written on sides*
 - certain effects apply to all creatures placed or moved onto space
 
-<img src="images/prototypes/terrain_final.png" width="250" height="350">
+<img src="images/prototypes/terrain/terrain_final.png" width="250" height="350">
 
 - card effect symbol
 - name of terrain
@@ -141,7 +141,7 @@ Played together
   1. teleport
   2. draw a card
 
-<img src="images/prototypes/spell_final.png" width="250" height="350">
+<img src="images/prototypes/spell/spell_final.png" width="250" height="350">
 
 - name of spell
 - spell symbol
@@ -153,7 +153,7 @@ Played together
    1. move enemy creature
    2. 
 
-<img src="images/prototypes/legend_final.png" width="250" height="350">
+<img src="images/prototypes/legend/legend_final.png" width="250" height="350">
 
 - name of legend
 - attack number (silver)
@@ -168,7 +168,7 @@ Played together
   1. draft (draw 5 cards and if creature must be played)
   2. assassinate (destroy equal amount of creatures)
 
-<img src="images/prototypes/cataclysm_final.png" width="250" height="350">
+<img src="images/prototypes/cataclysm/cataclysm_final.png" width="250" height="350">
 
 - art full card
 - nice border
