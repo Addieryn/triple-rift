@@ -13,6 +13,8 @@ Game_project by 37th Parallel(lateral)
 
 
 ***NAME IDEAS***
+**name ideas**
+
 #### game modes:
 - Arena (gladiator)
 - Corruption (taming)
