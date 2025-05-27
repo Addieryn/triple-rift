@@ -90,7 +90,7 @@ Game_project by 37th Parallel(lateral)
 - card effects
 - symbols for abilities 
 
-<img src="images/prototypes/back_test.png" width="250" height="250">
+<img src="images/prototypes/back_test.png" width="250" height="350">
 
 card back
 
