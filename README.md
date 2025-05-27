@@ -13,7 +13,8 @@ Game_project by 37th Parallel(lateral)
 
 
 ***NAME IDEAS***
-**name ideas**
+
+****this****
 
 #### game modes:
 - Arena (gladiator)
