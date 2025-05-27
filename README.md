@@ -7,6 +7,11 @@ Game_project by 37th Parallel(lateral)
 4. add Jacques as spell card the plays music to hypnotize enemies for 1 turn
 5. add corina legend assassin (psych0: can remove adjacent card/ cataclysm: remove multiple but has to be even sides)
 
+### Ideas:
+- passive abilities have an icon and can be used as token-ish for other games
+
+
+
 ***NAME IDEAS***
 #### game modes:
 - Arena (gladiator)
@@ -84,6 +89,23 @@ Game_project by 37th Parallel(lateral)
 
 ## Card mechanics
 
+### ICONS
+- Movement
+  1. move enemy card
+  2. move own card
+  3. steadfast -cant be moved-
+  4. poise -no motion sick-
+- Attack
+  1. slow -takes movement to attack- 
+  2. 
+- Defense
+  1. block
+  2. 
+- Deck
+  1. Draw a card
+  2. 
+
+
 ### Design
 - square cards (probably not) 
 - directional card damage: 4 defense numbers, 1 attack in two places
@@ -98,12 +120,12 @@ card back
 - attack all sides at summon
 - directional defense
 - (?)abilities
-   1. (?)move enemy card **ETB**
-   2. (?)block (one turn) **ETB**
-   3. mobility
-   4. (?)double strike (advantage/reroll) **ETB**
-   5. (?)range 
-   6. haste
+   1. move enemy card **ETB** (M)
+   2. (?)block (one turn) **ETB** (Df)
+   3. mobility (M)
+   4. (?)double strike (advantage/reroll) **ETB** (A)
+   5. (?)range (A)
+   6. haste (M)
    7. 
 
 <img src="images/prototypes/square_card.png" width="250" height="250">
@@ -125,6 +147,8 @@ Square size
 - stackable up to 3
 *needs to be bigger then creature cards to read/ or written on sides*
 - certain effects apply to all creatures placed or moved onto space
+- ablilities:
+  1. draw a card
 
 <img src="images/prototypes/terrain/terrain_final.png" width="250" height="350">
 
@@ -154,7 +178,7 @@ Played together
 ### Legends
 - user's main
 - lower tier of cataclysm (like a teaser)
-   1. move enemy creature
+   1. move enemy creature (M)
    2. 
 
 <img src="images/prototypes/legend/legend_final.png" width="250" height="350">
