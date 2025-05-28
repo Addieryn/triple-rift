@@ -1,4 +1,4 @@
-# Legendary: Origins (Creative card game)
+# Legendary: genesis (Creative card game)
 Game_project by 37th Parallel(lateral)
 
 1. add john to game (cave monk?)
@@ -37,7 +37,7 @@ Game_project by 37th Parallel(lateral)
 
 - **game modes**
   1. Tamer type - d/m
-  2. Kill the commander - d/m
+  2. Kill the legend - d/m
   3. Path building strategy - d/m
   4. Gladiator duel - d/m
   5. Dungeon crawlers - s/m
@@ -98,16 +98,19 @@ Game_project by 37th Parallel(lateral)
   2. move own card
   3. steadfast -cant be moved-
   4. poise -no motion sick-
+  5. 
 - **Attack**
   1. slow -takes movement to attack- 
-  2. plus 1 to attack
+  2. +1 to 1 side attack
   3. 
 - **Defense**
   1. block
-  2. 
+  2. +1 to 1 side defense
+  3. 
 - **Deck**
   1. Draw a card
-  2. 
+  2. discard a card
+  3. 
 
 
 ### Design
@@ -131,10 +134,6 @@ card back
    5. (?)range (A)
    6. haste (M)
    7. 
-
-<img src="images/prototypes/square_card.png" width="250" height="250">
-
-Square size
 
 <img src="images/prototypes/creature/creature_final.png" width="250" height="350">
 
