@@ -148,7 +148,6 @@ card back
 ### Terrains
 - draw every turn and must play anywhere
 - stackable up to 3
-*needs to be bigger then creature cards to read/ or written on sides*
 - certain effects apply to all creatures placed or moved onto space
 - ablilities:
   1. draw a card
