@@ -5,16 +5,15 @@ Game_project by 37th Parallel(lateral)
 2. add tyreese (basketball weirder)
 3. add Ryan (Rianheart judge warhammer big poofy eyebrows Legend/cataclysm)
 4. add Jacques as spell card the plays music to hypnotize enemies for 1 turn
-5. add corina legend assassin (psych0: can remove adjacent card/ cataclysm: remove multiple but has to be even sides)
+5. add corina legend assassin (psycho: can remove adjacent card/ cataclysm: remove multiple but has to be even sides)
 
 ### Ideas:
 - passive abilities have an icon and can be used as token-ish for other games
+- devotion (the team the cards are a part of)
+- convergence (name of the place where terrains and creatures are played)
 - 
 
-
 ***NAME IDEAS***
-
-****this****
 
 #### game modes:
 - Arena (gladiator)
@@ -57,9 +56,9 @@ Game_project by 37th Parallel(lateral)
 - no colors matter
 - most "tamed" wins
 - (?)legends have a re-attack (token)
-- (?)cards played in any direction
-- (?)game ends when all terrains are played(timer) {30}
-- (?) first creature cant be tamed/gains block for 1 turn
+- cards played in any direction
+- game ends when all terrains are played(timer) {30}
+- first creature cant be tamed/gains block for 1 turn
 - movement can be done when card is summoned (motion sickness)
 - draw for setup 3 (odd number) play anywhere terrain 
 
@@ -99,18 +98,24 @@ Game_project by 37th Parallel(lateral)
   3. steadfast -cant be moved-
   4. poise -no motion sick-
   5. 
+  6. 
 - **Attack**
   1. slow -takes movement to attack- 
   2. +1 to 1 side attack
-  3. 
+  3. vice grip -attacks both sides of creature-
+  4. hoard -+1 for each adjacent hoard card- (make them weak)
+  5. force -on attack can move card one over-
+  6. 
+  7. 
 - **Defense**
-  1. block
+  1. block -for 1 turn-
   2. +1 to 1 side defense
   3. 
 - **Deck**
   1. Draw a card
   2. discard a card
-  3. 
+  3. look at top of deck, either take card or discard
+  4. search deck
 
 
 ### Design
@@ -151,6 +156,7 @@ card back
 - certain effects apply to all creatures placed or moved onto space
 - ablilities:
   1. draw a card
+  2. 
 
 <img src="images/prototypes/terrain/terrain_final.png" width="250" height="350">
 
