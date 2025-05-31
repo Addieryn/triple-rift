@@ -11,7 +11,7 @@ Game_project by 37th Parallel(lateral)
 - passive abilities have an icon and can be used as token-ish for other games
 - devotion (the team the cards are a part of)
 - convergence (name of the place where terrains and creatures are played)
-- 
+- deviating (name for crit hit)
 
 ***NAME IDEAS***
 
