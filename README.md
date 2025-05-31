@@ -217,6 +217,8 @@ Played together
 - grid based map
 - 5 X 5 (alt boards)
 
+<img src="images/prototypes/board/board_sat_test.png" width="400" height="400">
+
 
 ## Dice 
 
