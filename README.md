@@ -158,7 +158,7 @@ card back
   1. draw a card
   2. 
 
-<img src="images/prototypes/terrain/terrain_final.png" width="250" height="350">
+<img src="images/prototypes/terrain/terrain_icon_test.png" width="250" height="350">
 
 - card effect symbol
 - name of terrain
