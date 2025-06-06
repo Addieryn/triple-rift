@@ -36,7 +36,7 @@ card back
 - stackable up to 3
 - certain effects apply to all creatures placed or moved onto space
 
-<img src="prototypes/terrain/terrain_icon_test.png" width="250" height="350">
+<img src="prototypes/terrain/terrain_i_t_2.png" width="250" height="350">
 
 - card effect symbol
 - name of terrain
@@ -45,7 +45,7 @@ card back
 - description of effect (story telling)
 
 
-<img src="prototypes/together_cleaner.png" width="350" height="350">
+<img src="prototypes/together_tests_icons.png" width="350" height="350">
 
 Played together
 
@@ -53,7 +53,7 @@ Played together
 - one time use
 - can alter/move creatures
 
-<img src="prototypes/spell/spell_final.png" width="250" height="350">
+<img src="prototypes/spell/spell_1.png" width="250" height="350">
 
 - name of spell
 - spell symbol
