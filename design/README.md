@@ -2,7 +2,7 @@
 
 **ADD IN**
 1. add john to game (cave monk?)
-2. add tyreese (basketball weirder)
+2. add tyreese (basketball wielder)
 3. add Ryan (Rianheart judge warhammer big poofy eyebrows Legend/cataclysm)
 4. add Jacques as spell card the plays music to hypnotize enemies for 1 turn
 5. add corina legend assassin (psycho: can remove adjacent card/ cataclysm: remove multiple but has to be even sides)
