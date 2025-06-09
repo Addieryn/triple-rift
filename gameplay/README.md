@@ -36,6 +36,16 @@
   6. 1 cataclysm if owned and legend on board (?)instead of spells
 
 ### Areana
+#### general rules
+- each select a legend as their champion
+- creatures as equipment
+- spells temporary buff (1turn)
+- terrains act maybe like one off?
+- 1 move, 1 attack, 1 creature equipment
+- creature equipment 1 for atk 1 for def
+- 
+
+#### play
 - PHASE:
   1. draw
   2. 
