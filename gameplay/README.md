@@ -2,7 +2,7 @@
 
 ## Rules
 
-### Tamers
+### Corruption
 #### General Rules
 - cannot place creature on top of other creature
 - no colors matter
