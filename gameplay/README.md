@@ -36,27 +36,66 @@
   6. 1 cataclysm if owned and legend on board (?)instead of spells
 
 ### Areana
+#### general rules
+- each select a legend as their champion
+- creatures as equipment
+- spells temporary buff based on icon perhaps (1turn)
+- terrains act maybe like one off steped on?
+- 1 move, 1 attack, 1 creature equipment
+- creature equipment 1 for atk 1 for def
+- 
+
+#### play
 - PHASE:
   1. draw
   2. 
 
 ### Kill the commander
+#### general rules
+- legend selected
+- creatures spawn from legend
+- plays like the duke/chess where you have to put the legend on checkmate
+- 
+
+#### play
 - PHASE:
   1. draw
   2.  
 
 
 ### Paths to legends
+#### general rules
+- legends selected on 2 ends stay stationary
+- terrains are placed in order to create a path to the other legend
+- defense and attack are flipped (4 possible attacks [per round?])
+- have to move to get to legend (rounds or lives, until out of cards?)
+- 
+
+#### play
 - PHASE:
   1. draw
   2. 
 
 ### Dungeons
+#### general rules 
+- set up on grid
+- shuffle cards to be encounters
+- then creatures move and attack towards you
+- collect items/equipments (creatures and whatever spells/terrains(tokens?)
+- 
+
+#### play
 - PHASE:
   1. draw
   2. 
 
 ### Encounters
+#### general rules
+- roguelike with preset encounters on a line
+- creatures have health (maybe how many colors determines the health)
+- big boss fight with special deck of cards
+
+#### play
 - PHASE:
   1. draw
   2. 
