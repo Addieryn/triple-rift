@@ -26,6 +26,18 @@
 - "crit hit = +4(breaks shield for standard dmg)"
 - "crit miss = miss"
 
+-**2d6**
+- 1 attack, 1 defense
+- 1 crit, 2 atk/def, 3 neutral
+- roll the same the cancel out
+- crit and neutral= crit
+
+-**2d10**
+- 1 attack, 1 defense
+- 1 crit, 4 atk/def, 5 neutral
+- roll the same the cancel out
+- crit and neutral= crit
+
 #### Play
 - PHASE:
   1. DRAW card x1 (from spell or creature deck)
