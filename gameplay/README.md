@@ -81,12 +81,13 @@
 - terrains are placed in order to create a path to the other legend
 - defense and attack are flipped (4 possible attacks [per round?])
 - have to move to get to legend (rounds or lives, until out of cards?)
+- icon cards for movement let you move your creature, attack, defend (rotate) {maybe both draw and movement icons move cards?}
 - 
 
 #### play
 - PHASE:
-  1. draw
-  2. 
+  1. draw from combined deck
+  2. play 1 creature or any card as token
 
 ### Dungeons
 #### general rules 
